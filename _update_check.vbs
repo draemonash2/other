@@ -55,3 +55,9 @@ If sDiffProgramPath = "" then
 end if
 objWshShell.Run """" & sDiffProgramPath & """ -r """ & sDiffSrcDirPath & """ """ & sDiffTrgtDirPath & """", 0, True
 
+vAnswer = MsgBox("ダウンロードフォルダを削除しますか？", vbYesNo, sScriptName)
+If vAnswer = vbYes Then
+	objFSO.DeleteFile sDownloadTrgtFilePath, True
+	objFSO.DeleteFolder sDiffSrcDirPath, True
+End If
+
