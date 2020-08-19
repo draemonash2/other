@@ -9,8 +9,8 @@ Set objWshShell = CreateObject("WScript.Shell")
 Dim objFSO
 Set objFSO = CreateObject("Scripting.FileSystemObject")
 
-Dim sScriptName
-sScriptName = WScript.ScriptName
+Dim sOutputMsg
+sOutputMsg = WScript.ScriptName & " 「" & sLocalObjectName & "」"
 Dim sDownloadTrgtDirPath
 sDownloadTrgtDirPath = objWshShell.SpecialFolders("Desktop")
 Dim sDownloadTrgtFilePath
@@ -20,15 +20,15 @@ sDiffSrcDirPath = sDownloadTrgtDirPath & "\" & sLocalObjectName
 
 Dim vAnswer
 '=== ダウンロード ===
-vAnswer = MsgBox("ダウンロードを開始します。", vbOkCancel, sScriptName)
+vAnswer = MsgBox("ダウンロードを開始します。", vbOkCancel, sOutputMsg)
 If vAnswer = vbCancel Then
-	MsgBox "キャンセルが押されたため、処理を中断します。", vbExclamation, sScriptName
+	MsgBox "キャンセルが押されたため、処理を中断します。", vbExclamation, sOutputMsg
 	WScript.Quit
 End If
 CreateObject("Shell.Application").ShellExecute "microsoft-edge:" & sDownloadUrl
-vAnswer = MsgBox("ダウンロードが完了したら「OK」を押してください。" & vbNewLine & "解凍を開始します。", vbOkCancel, sScriptName)
+vAnswer = MsgBox("ダウンロードが完了したら「OK」を押してください。" & vbNewLine & "解凍を開始します。", vbOkCancel, sOutputMsg)
 If vAnswer = vbCancel Then
-	MsgBox "キャンセルが押されたため、処理を中断します。", vbExclamation, sScriptName
+	MsgBox "キャンセルが押されたため、処理を中断します。", vbExclamation, sOutputMsg
 	WScript.Quit
 End If
 
@@ -36,13 +36,13 @@ End If
 Dim sUnzipProgramPath
 sUnzipProgramPath = objWshShell.Environment("System").Item("MYPATH_7Z")
 If sUnzipProgramPath = "" then
-	MsgBox "環境変数「MYPATH_7Z」が設定されていません。" & vbNewLine & "処理を中断します。", vbExclamation, sScriptName
+	MsgBox "環境変数「MYPATH_7Z」が設定されていません。" & vbNewLine & "処理を中断します。", vbExclamation, sOutputMsg
 	WScript.Quit
 End If
 objWshShell.Run """" & sUnzipProgramPath & """ x -o""" & sDownloadTrgtDirPath & """ """ & sDownloadTrgtFilePath & """"
-vAnswer = MsgBox("解凍が完了したら「OK」を押してください。" & vbNewLine & "フォルダ比較を開始します。", vbOkCancel, sScriptName)
+vAnswer = MsgBox("解凍が完了したら「OK」を押してください。" & vbNewLine & "フォルダ比較を開始します。", vbOkCancel, sOutputMsg)
 If vAnswer = vbCancel Then
-	MsgBox "キャンセルが押されたため、処理を中断します。", vbExclamation, sScriptName
+	MsgBox "キャンセルが押されたため、処理を中断します。", vbExclamation, sOutputMsg
 	WScript.Quit
 End If
 
@@ -50,12 +50,12 @@ End If
 Dim sDiffProgramPath
 sDiffProgramPath = objWshShell.Environment("System").Item("MYPATH_WINMERGE")
 If sDiffProgramPath = "" then
-	MsgBox "環境変数「MYPATH_WINMERGE」が設定されていません。" & vbNewLine & "処理を中断します。", vbExclamation, sScriptName
+	MsgBox "環境変数「MYPATH_WINMERGE」が設定されていません。" & vbNewLine & "処理を中断します。", vbExclamation, sOutputMsg
 	WScript.Quit
 end if
 objWshShell.Run """" & sDiffProgramPath & """ -r """ & sDiffSrcDirPath & """ """ & sDiffTrgtDirPath & """", 0, True
 
-vAnswer = MsgBox("ダウンロードフォルダを削除しますか？", vbYesNo, sScriptName)
+vAnswer = MsgBox("ダウンロードフォルダを削除しますか？", vbYesNo, sOutputMsg)
 If vAnswer = vbYes Then
 	objFSO.DeleteFile sDownloadTrgtFilePath, True
 	objFSO.DeleteFolder sDiffSrcDirPath, True
