@@ -35,7 +35,7 @@ End If
 
 '=== 解凍 ===
 Dim sUnzipProgramPath
-sUnzipProgramPath = objWshShell.Environment("System").Item("MYEXEPATH_7Z")
+sUnzipProgramPath = objWshShell.ExpandEnvironmentStrings("%MYEXEPATH_7Z%")
 If sUnzipProgramPath = "" then
 	MsgBox "環境変数「MYEXEPATH_7Z」が設定されていません。" & vbNewLine & "処理を中断します。", vbExclamation, sOutputMsg
 	WScript.Quit
@@ -49,7 +49,7 @@ End If
 
 '=== フォルダ比較 ===
 Dim sDiffProgramPath
-sDiffProgramPath = objWshShell.Environment("System").Item("MYEXEPATH_WINMERGE")
+sDiffProgramPath = objWshShell.ExpandEnvironmentStrings("%MYEXEPATH_WINMERGE%")
 If sDiffProgramPath = "" then
 	MsgBox "環境変数「MYEXEPATH_WINMERGE」が設定されていません。" & vbNewLine & "処理を中断します。", vbExclamation, sOutputMsg
 	WScript.Quit
