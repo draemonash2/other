@@ -54,7 +54,7 @@ If sDiffProgramPath = "" then
 	MsgBox "環境変数「MYEXEPATH_WINMERGE」が設定されていません。" & vbNewLine & "処理を中断します。", vbExclamation, sOutputMsg
 	WScript.Quit
 end if
-objWshShell.Run """" & sDiffProgramPath & """ -r """ & sDiffSrcDirPath & """ """ & sDiffTrgtDirPath & """", 0, True
+objWshShell.Run """" & sDiffProgramPath & """ -r """ & sDiffSrcDirPath & """ """ & sDiffTrgtDirPath & """", 10, True
 
 vAnswer = MsgBox("ダウンロードフォルダを削除しますか？", vbYesNo, sOutputMsg)
 If vAnswer = vbYes Then
