@@ -1,7 +1,7 @@
 Attribute VB_Name = "Macro_FilterAtKeyword"
 Option Explicit
 
-'filter at keyword v1.1.1
+'filter at keyword v1.2.0
 
 ' ====================================================================
 ' = 概要：設定されているオートフィルタの範囲に対して、
@@ -40,6 +40,7 @@ Public Sub オートフィルタ操作withボタン()
     Else
         sBtnText = objBtn.TextEffect.Text
     End If
+    MsgBox sBtnText
     Call FilterAtKeyword(sBtnText, objBtn.TopLeftCell.Column)
 End Sub
 
@@ -73,6 +74,41 @@ Attribute オートフィルタ操作at現在行カテゴリ.VB_ProcData.VB_Invoke_Func = "q\n14
         Call FilterAtKeyword("解除", lClmIdx)
     Else
         Call FilterAtKeyword(ActiveSheet.Cells(ActiveCell.Row, lClmIdx).Value, lClmIdx)
+    End If
+End Sub
+
+' ====================================================================
+' = 概要：設定されているオートフィルタの範囲に対して、
+' =       未着手or保留でフィルタする。
+' ====================================================================
+Public Sub オートフィルタ操作at未着手保留()
+    Const sFILTER_KEYWORD As String = "*未*" & vbLf & "*保*"
+    Dim lClmIdx As Long
+    
+    Dim rFindResult As Range
+    Dim sFindKeyword As String
+    Dim shTrgtSht As Worksheet
+    Set shTrgtSht = ActiveSheet
+    
+    sFindKeyword = "カテゴリ"
+    Set rFindResult = shTrgtSht.Cells.Find(sFindKeyword, LookAt:=xlWhole)
+    If rFindResult Is Nothing Then
+        MsgBox _
+            "セルが見つからなかったため、処理を中断します。" & vbNewLine & _
+            "　検索対象シート：" & shTrgtSht.Name & vbNewLine & _
+            "　検索対象キーワード：" & sFindKeyword, _
+            vbCritical
+        End
+    End If
+    lClmIdx = rFindResult.Column
+
+    If ActiveCell.Row = ActiveSheet.ListObjects(1).HeaderRowRange.Row Then
+        'アクティブセルがタイトル行の場合、フィルタを解除する
+        Call FilterAtKeyword("解除", lClmIdx)
+        Debug.Print "解除"
+    Else
+        Call FilterAtKeyword(sFILTER_KEYWORD, lClmIdx)
+        Debug.Print sFILTER_KEYWORD
     End If
 End Sub
 
