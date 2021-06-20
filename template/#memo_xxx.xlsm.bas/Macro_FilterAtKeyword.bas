@@ -40,7 +40,6 @@ Public Sub オートフィルタ操作withボタン()
     Else
         sBtnText = objBtn.TextEffect.Text
     End If
-    MsgBox sBtnText
     Call FilterAtKeyword(sBtnText, objBtn.TopLeftCell.Column)
 End Sub
 
@@ -49,9 +48,7 @@ End Sub
 ' =       カテゴリ行のキーワードでフィルタする。
 ' ====================================================================
 Public Sub オートフィルタ操作at現在行カテゴリ()
-Attribute オートフィルタ操作at現在行カテゴリ.VB_ProcData.VB_Invoke_Func = "q\n14"
-    Dim lClmIdx As Long
-    
+Attribute オートフィルタ操作at現在行カテゴリ.VB_ProcData.VB_Invoke_Func = " \n14"
     Dim rFindResult As Range
     Dim sFindKeyword As String
     Dim shTrgtSht As Worksheet
@@ -67,6 +64,8 @@ Attribute オートフィルタ操作at現在行カテゴリ.VB_ProcData.VB_Invoke_Func = "q\n14
             vbCritical
         End
     End If
+    
+    Dim lClmIdx As Long
     lClmIdx = rFindResult.Column
 
     If ActiveCell.Row = ActiveSheet.ListObjects(1).HeaderRowRange.Row Then
@@ -82,9 +81,7 @@ End Sub
 ' =       未着手or保留でフィルタする。
 ' ====================================================================
 Public Sub オートフィルタ操作at未着手保留()
-    Const sFILTER_KEYWORD As String = "*未*" & vbLf & "*保*"
-    Dim lClmIdx As Long
-    
+Attribute オートフィルタ操作at未着手保留.VB_ProcData.VB_Invoke_Func = "q\n14"
     Dim rFindResult As Range
     Dim sFindKeyword As String
     Dim shTrgtSht As Worksheet
@@ -100,15 +97,14 @@ Public Sub オートフィルタ操作at未着手保留()
             vbCritical
         End
     End If
+    Dim lClmIdx As Long
     lClmIdx = rFindResult.Column
 
     If ActiveCell.Row = ActiveSheet.ListObjects(1).HeaderRowRange.Row Then
         'アクティブセルがタイトル行の場合、フィルタを解除する
         Call FilterAtKeyword("解除", lClmIdx)
-        Debug.Print "解除"
     Else
-        Call FilterAtKeyword(sFILTER_KEYWORD, lClmIdx)
-        Debug.Print sFILTER_KEYWORD
+        Call FilterAtKeyword("*未*" & vbLf & "*保*", lClmIdx)
     End If
 End Sub
 
