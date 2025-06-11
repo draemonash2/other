@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
   <diagram id="r8GTS6QmZgoxfXT5Kjtq" name="ショートカットキー">
-    <mxGraphModel dx="1300" dy="1717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1134" dy="1717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,7 +43,7 @@
         <mxCell id="WMovHN3IzCi7NN0xazdc-12" value="言語チートシート" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="306" y="323" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="WMovHN3IzCi7NN0xazdc-13" value="PC移行時チェックリスト" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=9;" parent="1" vertex="1">
+        <mxCell id="WMovHN3IzCi7NN0xazdc-13" value="PC移行時チェックリスト" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=8;" parent="1" vertex="1">
           <mxGeometry x="557.5" y="327" width="50" height="27" as="geometry" />
         </mxCell>
         <mxCell id="WMovHN3IzCi7NN0xazdc-14" value="用語集" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;" parent="1" vertex="1">
@@ -55,7 +55,7 @@
         <mxCell id="WMovHN3IzCi7NN0xazdc-17" value="#object&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;.xlsx&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="640" y="198" width="50" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="WMovHN3IzCi7NN0xazdc-18" value="codes&lt;div&gt;ダウンロード&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="WMovHN3IzCi7NN0xazdc-18" value="codes&lt;div&gt;ダウンロード&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="450" y="198" width="50" height="24" as="geometry" />
         </mxCell>
         <mxCell id="WMovHN3IzCi7NN0xazdc-19" value="定期キー送信" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;" parent="1" vertex="1">
@@ -145,11 +145,11 @@
         <mxCell id="WMovHN3IzCi7NN0xazdc-53" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;opacity=80;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="882" y="328" width="92" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="WMovHN3IzCi7NN0xazdc-54" value="#todo&lt;div&gt;.itmz&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="1072" y="324" width="50" height="50" as="geometry" />
+        <mxCell id="WMovHN3IzCi7NN0xazdc-54" value="#todo&lt;div&gt;.itmz&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="530" y="261" width="43" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="WMovHN3IzCi7NN0xazdc-55" value="#memo&lt;div&gt;.drawio&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="1008" y="389" width="50" height="26" as="geometry" />
+        <mxCell id="WMovHN3IzCi7NN0xazdc-55" value="#memo&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;.drawio&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="626" y="327" width="44" height="13" as="geometry" />
         </mxCell>
         <mxCell id="WMovHN3IzCi7NN0xazdc-58" value="#memo&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;.txt&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="322" y="392" width="270" height="24" as="geometry" />
@@ -181,20 +181,14 @@
         <mxCell id="L_iz9HnSWZaScfLTwLCq-1" value="ホットキー配列表.jpg" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=8;" parent="1" vertex="1">
           <mxGeometry x="162" y="40" width="50" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="FUkBAor8L5th7cGUrmmW-3" value="#temp&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); background-color: transparent;&quot;&gt;.txt&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;opacity=80;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="1072" y="416" width="48" height="24" as="geometry" />
+        <mxCell id="FUkBAor8L5th7cGUrmmW-6" value="#temp&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;.xlsm&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;opacity=80;fontColor=#ffffff;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="690" y="340" width="46" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="FUkBAor8L5th7cGUrmmW-4" value="#memo&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;.txt&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="1072" y="390" width="48" height="26" as="geometry" />
+        <mxCell id="FUkBAor8L5th7cGUrmmW-7" value="#memo&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;.xlsm&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="690" y="324" width="46" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="FUkBAor8L5th7cGUrmmW-6" value="#temp&lt;div&gt;.xlsm&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;opacity=80;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="1140" y="417" width="40" height="23" as="geometry" />
-        </mxCell>
-        <mxCell id="FUkBAor8L5th7cGUrmmW-7" value="#memo&lt;div&gt;.xlsm&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="1140" y="389" width="40" height="27" as="geometry" />
-        </mxCell>
-        <mxCell id="FUkBAor8L5th7cGUrmmW-8" value="#temp&lt;div&gt;.drawio&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;opacity=80;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="416" width="48" height="24" as="geometry" />
+        <mxCell id="FUkBAor8L5th7cGUrmmW-8" value="#temp&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;.drawio&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;opacity=80;fontColor=#ffffff;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="626" y="340" width="44" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2ju_SdC6TeFvgpvwXL00-1" value="←" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;opacity=80;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="464" y="290" width="50" height="20" as="geometry" />
@@ -208,17 +202,17 @@
         <mxCell id="2ju_SdC6TeFvgpvwXL00-4" value="→" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;opacity=80;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="656" y="290" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="2ju_SdC6TeFvgpvwXL00-5" value="Home" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;opacity=80;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="2ju_SdC6TeFvgpvwXL00-5" value="Home" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;opacity=80;fontColor=#ffffff;fontSize=8;" parent="1" vertex="1">
           <mxGeometry x="499" y="354" width="45" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="2ju_SdC6TeFvgpvwXL00-6" value="End" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;opacity=80;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="690" y="354" width="46" height="20" as="geometry" />
+        <mxCell id="2ju_SdC6TeFvgpvwXL00-6" value="End" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;opacity=80;fontColor=#ffffff;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="690" y="360" width="46" height="14" as="geometry" />
         </mxCell>
-        <mxCell id="2ju_SdC6TeFvgpvwXL00-7" value="PgDn" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;opacity=80;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="559" y="355" width="45" height="20" as="geometry" />
+        <mxCell id="2ju_SdC6TeFvgpvwXL00-7" value="PgDn" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;opacity=80;fontColor=#ffffff;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="559" y="355" width="48" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="2ju_SdC6TeFvgpvwXL00-8" value="PgUp" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;opacity=80;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="626" y="355" width="45" height="20" as="geometry" />
+        <mxCell id="2ju_SdC6TeFvgpvwXL00-8" value="PgUp" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;opacity=80;fontColor=#ffffff;fontSize=8;" parent="1" vertex="1">
+          <mxGeometry x="626" y="360" width="45" height="15" as="geometry" />
         </mxCell>
         <mxCell id="2ju_SdC6TeFvgpvwXL00-9" value="Cursor←" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;opacity=80;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="146" y="289" width="50" height="20" as="geometry" />
@@ -230,31 +224,34 @@
           <mxGeometry x="274" y="289" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2ju_SdC6TeFvgpvwXL00-12" value="Cursor↑" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;opacity=80;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="193" y="224" width="50" height="20" as="geometry" />
+          <mxGeometry x="193" y="224" width="47" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2ju_SdC6TeFvgpvwXL00-15" value="AppsKey" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;opacity=80;fontColor=#ffffff;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="707" y="225" width="44" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="kLJjLicZySvSY6sLD-aK-1" value="ホットキー配列表.drawio" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;opacity=80;fontColor=#ffffff;fontSize=8;" vertex="1" parent="1">
+        <mxCell id="kLJjLicZySvSY6sLD-aK-1" value="ホットキー配列表.drawio" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;opacity=80;fontColor=#ffffff;fontSize=8;" parent="1" vertex="1">
           <mxGeometry x="162" y="64" width="50" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="kLJjLicZySvSY6sLD-aK-2" value="Del" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;opacity=80;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="kLJjLicZySvSY6sLD-aK-2" value="Del" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;opacity=80;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="932" y="135" width="42" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="kLJjLicZySvSY6sLD-aK-3" value="WheelLeft" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;opacity=80;fontColor=#ffffff;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="kLJjLicZySvSY6sLD-aK-3" value="WheelLeft" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;opacity=80;fontColor=#ffffff;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="448" y="225" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="kLJjLicZySvSY6sLD-aK-4" value="WheelDn" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;opacity=80;fontColor=#ffffff;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="kLJjLicZySvSY6sLD-aK-4" value="WheelDn" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;opacity=80;fontColor=#ffffff;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="514" y="225" width="44" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="kLJjLicZySvSY6sLD-aK-5" value="WheeUp" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;opacity=80;fontColor=#ffffff;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="kLJjLicZySvSY6sLD-aK-5" value="WheeUp" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;opacity=80;fontColor=#ffffff;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="574" y="225" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="kLJjLicZySvSY6sLD-aK-6" value="WheelRight" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;opacity=80;fontColor=#ffffff;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="kLJjLicZySvSY6sLD-aK-6" value="WheelRight" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;opacity=80;fontColor=#ffffff;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="640" y="225" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="kLJjLicZySvSY6sLD-aK-7" value="クリック" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;opacity=80;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="kLJjLicZySvSY6sLD-aK-7" value="クリック" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;opacity=80;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="322" y="436" width="269" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hDom5suXNV1-u1BBnALy-2" value="Window&lt;div&gt;切替え&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;opacity=80;fontColor=#ffffff;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="193" y="200" width="48" height="24" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
