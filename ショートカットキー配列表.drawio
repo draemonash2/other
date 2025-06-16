@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
   <diagram id="0OlZ_8Rv9ea9qDmY1Saa" name="ショートカットキー">
-    <mxGraphModel dx="1058" dy="2489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="744" dy="2074" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -164,7 +164,7 @@
           <mxGeometry x="1133" y="415" width="87" height="23" as="geometry" />
         </mxCell>
         <mxCell id="-XeGOcgwBpzhlIFeRXTM-144" value="Mouse→" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;opacity=80;fontColor=#ffffff;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="1225" y="415" width="85.75" height="23" as="geometry" />
+          <mxGeometry x="1225" y="415" width="86" height="23" as="geometry" />
         </mxCell>
         <mxCell id="-XeGOcgwBpzhlIFeRXTM-145" value="#todo&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;.itmz&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="1590.75" y="368" width="86.25" height="39" as="geometry" />
@@ -240,6 +240,9 @@
         </mxCell>
         <mxCell id="-XeGOcgwBpzhlIFeRXTM-170" value="#memo&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;.txt&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="1294" y="553" width="406.75" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="fk-0Wx4IVXY15XfAiaQn-1" value="Del" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;opacity=80;fontColor=#ffffff;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1225" y="370" width="86" height="44" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
