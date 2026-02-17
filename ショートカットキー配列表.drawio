@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
   <diagram id="0OlZ_8Rv9ea9qDmY1Saa" name="ショートカットキー">
-    <mxGraphModel dx="112" dy="1421" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="633" dy="974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -311,13 +311,16 @@
           <mxGeometry x="1842" y="277" width="87" height="37" as="geometry" />
         </mxCell>
         <mxCell id="Bp0bykzhuLDDewQumZgy-1" value="github_io&lt;div&gt;index.md&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="1407.25" y="369" width="87" height="69" as="geometry" />
+          <mxGeometry x="1659.75" y="277.5" width="87" height="37.5" as="geometry" />
         </mxCell>
         <mxCell id="C2yVKYLh2m1yDYquzf0k-1" value="DIY設計" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="1225" y="368" width="86" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="u5C20gNbRpodezeIrIGo-1" value="車検討.xlsx" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;opacity=80;fontColor=#ffffff;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="u5C20gNbRpodezeIrIGo-1" value="車検討.xlsx" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;opacity=80;fontColor=#ffffff;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="1522" y="204" width="85" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="r_goQGyqVuP9bq7HJxWC-1" value="#gripes.txt" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1407.25" y="369" width="87" height="69" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
