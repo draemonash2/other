@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
   <diagram id="0OlZ_8Rv9ea9qDmY1Saa" name="ショートカットキー">
-    <mxGraphModel dx="633" dy="974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="816" dy="2487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -73,9 +73,6 @@
         <mxCell id="-XeGOcgwBpzhlIFeRXTM-101" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.no_symbol;fillColor=#FFFF66;strokeColor=#FF0000;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="2285.75" y="274" width="78" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="-XeGOcgwBpzhlIFeRXTM-102" value="ahk&lt;div&gt;再起動&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="1340" y="186" width="86" height="39" as="geometry" />
-        </mxCell>
         <mxCell id="-XeGOcgwBpzhlIFeRXTM-103" value="ホットキー配列表.jpg" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="2003" y="461" width="87" height="34" as="geometry" />
         </mxCell>
@@ -87,12 +84,6 @@
         </mxCell>
         <mxCell id="-XeGOcgwBpzhlIFeRXTM-118" value="GitHub&lt;div&gt;toppage&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="973" y="186" width="87" height="39" as="geometry" />
-        </mxCell>
-        <mxCell id="-XeGOcgwBpzhlIFeRXTM-119" value="GitHub&lt;div&gt;linux&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="1064.75" y="186" width="86" height="39" as="geometry" />
-        </mxCell>
-        <mxCell id="-XeGOcgwBpzhlIFeRXTM-120" value="GitHub&lt;div&gt;gitcmd&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="1155.75" y="186" width="87" height="39" as="geometry" />
         </mxCell>
         <mxCell id="-XeGOcgwBpzhlIFeRXTM-121" value="#memo_&lt;div&gt;xxx.xlsm&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="1797" y="186" width="86" height="39" as="geometry" />
@@ -136,8 +127,8 @@
         <mxCell id="-XeGOcgwBpzhlIFeRXTM-136" value="定期キー送信" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="1385.75" y="278" width="85" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="-XeGOcgwBpzhlIFeRXTM-137" value="Alerm&lt;div&gt;Timer&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="1291.75" y="278" width="88" height="70" as="geometry" />
+        <mxCell id="-XeGOcgwBpzhlIFeRXTM-137" value="Alerm&lt;div&gt;Timer&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1291.75" y="278" width="88" height="36" as="geometry" />
         </mxCell>
         <mxCell id="-XeGOcgwBpzhlIFeRXTM-139" value="Mouse↑" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;opacity=80;fontColor=#ffffff;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="1110" y="323" width="86" height="24" as="geometry" />
@@ -316,11 +307,11 @@
         <mxCell id="C2yVKYLh2m1yDYquzf0k-1" value="DIY設計" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="1225" y="368" width="86" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="u5C20gNbRpodezeIrIGo-1" value="車検討.xlsx" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;opacity=80;fontColor=#ffffff;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1522" y="204" width="85" height="21" as="geometry" />
-        </mxCell>
-        <mxCell id="r_goQGyqVuP9bq7HJxWC-1" value="#gripes.txt" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="r_goQGyqVuP9bq7HJxWC-1" value="#gripes.txt" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="1407.25" y="369" width="87" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="cnTNAfCFFThpX7VVRJp8-1" value="&lt;span&gt;ahk&lt;/span&gt;&lt;div&gt;リロード&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;opacity=80;fontColor=#ffffff;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1292" y="315" width="88" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
