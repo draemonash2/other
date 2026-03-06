@@ -79,7 +79,7 @@
         <mxCell id="-XeGOcgwBpzhlIFeRXTM-104" value="ホットキー配列表.drawio" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;opacity=80;fontColor=#ffffff;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="2003" y="496" width="87" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="-XeGOcgwBpzhlIFeRXTM-108" value="#memo&lt;div&gt;.xlsm&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=20;" parent="1" vertex="1">
+        <mxCell id="-XeGOcgwBpzhlIFeRXTM-108" value="&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;ahk&lt;/span&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;リロード&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="2140" y="278" width="110" height="156" as="geometry" />
         </mxCell>
         <mxCell id="-XeGOcgwBpzhlIFeRXTM-118" value="GitHub&lt;div&gt;toppage&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=15;" parent="1" vertex="1">
@@ -128,7 +128,7 @@
           <mxGeometry x="1385.75" y="278" width="85" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-XeGOcgwBpzhlIFeRXTM-137" value="Alerm&lt;div&gt;Timer&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="1291.75" y="278" width="88" height="36" as="geometry" />
+          <mxGeometry x="1291.75" y="278" width="88" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-XeGOcgwBpzhlIFeRXTM-139" value="Mouse↑" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;opacity=80;fontColor=#ffffff;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="1110" y="323" width="86" height="24" as="geometry" />
@@ -194,19 +194,16 @@
           <mxGeometry x="1728.75" y="509" width="85" height="22" as="geometry" />
         </mxCell>
         <mxCell id="-XeGOcgwBpzhlIFeRXTM-160" value="PC移行時チェックリスト" style="rounded=0;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=14;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1635.75" y="461" width="88" height="50" as="geometry" />
+          <mxGeometry x="1567.75" y="277.5" width="88" height="36.5" as="geometry" />
         </mxCell>
-        <mxCell id="-XeGOcgwBpzhlIFeRXTM-161" value="#memo&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;.drawio&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="1728.75" y="460" width="85" height="25" as="geometry" />
+        <mxCell id="-XeGOcgwBpzhlIFeRXTM-161" value="#temp&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); background-color: transparent;&quot;&gt;.xlsm&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="1545.75" y="461" width="85" height="25" as="geometry" />
         </mxCell>
         <mxCell id="-XeGOcgwBpzhlIFeRXTM-162" value="#temp&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;.drawio&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;opacity=80;fontColor=#ffffff;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="1728.75" y="484" width="85" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="-XeGOcgwBpzhlIFeRXTM-163" value="#temp&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;.xlsm&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;opacity=80;fontColor=#ffffff;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="1820.75" y="484" width="86" height="24" as="geometry" />
+          <mxGeometry x="1546" y="487" width="85" height="24" as="geometry" />
         </mxCell>
         <mxCell id="-XeGOcgwBpzhlIFeRXTM-164" value="#memo&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;.xlsm&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="1820.75" y="460" width="86" height="24" as="geometry" />
+          <mxGeometry x="1638" y="461" width="86" height="25" as="geometry" />
         </mxCell>
         <mxCell id="-XeGOcgwBpzhlIFeRXTM-166" value="End" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;opacity=80;fontColor=#ffffff;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="1820.75" y="509" width="86" height="22" as="geometry" />
@@ -310,8 +307,8 @@
         <mxCell id="r_goQGyqVuP9bq7HJxWC-1" value="#gripes.txt" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;opacity=80;fontColor=#ffffff;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="1407.25" y="369" width="87" height="69" as="geometry" />
         </mxCell>
-        <mxCell id="cnTNAfCFFThpX7VVRJp8-1" value="&lt;span&gt;ahk&lt;/span&gt;&lt;div&gt;リロード&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;opacity=80;fontColor=#ffffff;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="1292" y="315" width="88" height="32" as="geometry" />
+        <mxCell id="FdnP0MkzLJyfFQv0lS1g-1" value="#memo&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); background-color: transparent;&quot;&gt;.drawio&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;opacity=80;fontColor=#ffffff;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1637" y="487" width="85" height="24" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
