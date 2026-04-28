@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
   <diagram id="woqM5lyK27eqbUKxice6" name="dotfiles同期">
-    <mxGraphModel dx="1634" dy="-280" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1133" dy="-395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="bBmF08RVi-24AuaAi6qn-81" value="ローカル＠Windows" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=5;verticalAlign=top;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="350" y="2500" width="242.5" height="470" as="geometry" />
         </mxCell>
-        <mxCell id="zV4NylLbX-NY_0j4vprP-1" value="codes" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="zV4NylLbX-NY_0j4vprP-1" value="codes" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="387.5" y="2540" width="162.5" height="140" as="geometry" />
         </mxCell>
         <mxCell id="bBmF08RVi-24AuaAi6qn-78" value="リモート＠Linux" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=5;verticalAlign=top;" parent="1" vertex="1">
@@ -192,25 +192,25 @@
             <mxPoint x="-15" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zV4NylLbX-NY_0j4vprP-2" value="vim/_gvimrc" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zV4NylLbX-NY_0j4vprP-2" value="vim/_gvimrc" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="406" y="2570" width="128" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zV4NylLbX-NY_0j4vprP-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=arc;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;startArrow=classic;startFill=1;elbow=vertical;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="zV4NylLbX-NY_0j4vprP-2" target="bBmF08RVi-24AuaAi6qn-82">
+        <mxCell id="zV4NylLbX-NY_0j4vprP-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=arc;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;startArrow=classic;startFill=1;elbow=vertical;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" parent="1" source="zV4NylLbX-NY_0j4vprP-2" target="bBmF08RVi-24AuaAi6qn-82" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="480" y="2610" as="sourcePoint" />
             <mxPoint x="730" y="2610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zV4NylLbX-NY_0j4vprP-7" value="codes" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="zV4NylLbX-NY_0j4vprP-7" value="codes" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="100" y="2540" width="160" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="zV4NylLbX-NY_0j4vprP-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=arc;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;startArrow=classic;startFill=1;elbow=vertical;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="zV4NylLbX-NY_0j4vprP-6" target="zV4NylLbX-NY_0j4vprP-9" parent="1">
+        <mxCell id="zV4NylLbX-NY_0j4vprP-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=arc;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;startArrow=classic;startFill=1;elbow=vertical;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="zV4NylLbX-NY_0j4vprP-6" target="zV4NylLbX-NY_0j4vprP-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-30" y="2670" as="sourcePoint" />
             <mxPoint x="442.5" y="2610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zV4NylLbX-NY_0j4vprP-9" value="linux\_dotfiles" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zV4NylLbX-NY_0j4vprP-9" value="linux\_dotfiles" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="118.5" y="2630" width="121.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bBmF08RVi-24AuaAi6qn-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=arc;fillColor=#ffe6cc;strokeColor=#d79b00;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;strokeWidth=2;curved=1;" parent="1" source="zV4NylLbX-NY_0j4vprP-9" target="bBmF08RVi-24AuaAi6qn-108" edge="1">
@@ -219,16 +219,16 @@
             <mxPoint x="95" y="2730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zV4NylLbX-NY_0j4vprP-6" value="vim/_gvimrc" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zV4NylLbX-NY_0j4vprP-6" value="vim/_gvimrc" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="2570" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zV4NylLbX-NY_0j4vprP-12" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=arc;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;startArrow=classic;startFill=1;elbow=vertical;strokeWidth=2;" edge="1" parent="1">
+        <mxCell id="zV4NylLbX-NY_0j4vprP-12" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=arc;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;startArrow=classic;startFill=1;elbow=vertical;strokeWidth=2;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="625" y="2540" as="sourcePoint" />
             <mxPoint x="875" y="2540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zV4NylLbX-NY_0j4vprP-13" value="diff_vimrc.bat" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zV4NylLbX-NY_0j4vprP-12">
+        <mxCell id="zV4NylLbX-NY_0j4vprP-13" value="diff_vimrc.bat" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zV4NylLbX-NY_0j4vprP-12" vertex="1" connectable="0">
           <mxGeometry x="0.1381" y="-1" relative="1" as="geometry">
             <mxPoint x="-19" as="offset" />
           </mxGeometry>
